@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./master-sword.component.css']
 })
 export class MasterSwordComponent implements OnInit {
+// create the variable for the view
+proclamation: string = ' The Master Sword';
 
   constructor() { }
 

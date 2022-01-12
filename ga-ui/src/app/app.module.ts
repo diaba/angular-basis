@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MasterSwordComponent } from './master-sword/master-sword.component';
+import { HylianShieldComponent } from './hylian-shield/hylian-shield.component';
 
 @NgModule({
   declarations: [// let know angular your modules
-    AppComponent, MasterSwordComponent
+    AppComponent, MasterSwordComponent, HylianShieldComponent
   ],
   imports: [
     BrowserModule

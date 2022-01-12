@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']  // file responsible for the the styles
 })
 export class AppComponent {
-  title = 'ga-ui';
+  // variable title
+  title = 'My website';
 }
