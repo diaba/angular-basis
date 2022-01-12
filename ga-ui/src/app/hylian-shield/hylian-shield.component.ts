@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hylian-shield.component.css']
 })
 export class HylianShieldComponent implements OnInit {
+// my variable
+hylian: string = 'Behold! The Hylian Shield!';
 
   constructor() { }
 
